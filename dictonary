@@ -1,0 +1,12 @@
+d1={"apple":10,"mango":100}
+d5={"banana":200, "guava":500}
+d4= d1.values()
+d3= d1.keys()
+print("dictionaryvalue is :",d4)
+print("dictionarykey  is :",d3)
+d1["apple"]=100 
+d1["lichi"]=500
+print(d1)
+d7=d1.update(d5)
+print(d7)
+d1.pop("mango")

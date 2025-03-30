@@ -1,0 +1,11 @@
+l1 =[1,2,'a',True,3,4,5,6]
+l1[0]=100
+l1.append("hi")
+l1.pop()
+l1.reverse()
+#l1.sort()
+l1.insert(1,'hiii')
+print("list is:",l1)
+#L1+L2
+l3 =l1*3+l1
+print(l3)
